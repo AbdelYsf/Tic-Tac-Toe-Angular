@@ -1,3 +1,4 @@
-<p>
-  square works!
-</p>
+
+<button nbButton *ngIf="!value">{{value}}</button>
+<button nbButton hero status="success" *ngIf="value== 'x'">{{value}}</button>
+<button nbButton hero status="info" *ngIf="value== 'o'">{{value}}</button>
